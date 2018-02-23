@@ -1,0 +1,4 @@
+idtipologin	tipologin
+1	Usuario
+2	Administrador
+3	Gerente

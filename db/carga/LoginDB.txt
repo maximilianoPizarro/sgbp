@@ -1,0 +1,5 @@
+﻿idlogin	useer	pass	tipologin	primerlogeo
+1	usuario	b59c67bf196a4758191e42f76670ceba	1	false
+2	admin	b59c67bf196a4758191e42f76670ceba	2	false
+3	gerente	b59c67bf196a4758191e42f76670ceba	3	true
+4	usuario2	b59c67bf196a4758191e42f76670ceba	1	false

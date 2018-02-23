@@ -1,0 +1,5 @@
+﻿dni	nombre	apellido	email	bajausuario
+11111111	Mateo	Decurguez	jm@hotmail.com	true
+22222222	Maxi	Pizarro	max@gmail.com	true
+33333333	Alejo	Bish	ab@gmail.com	true
+44444444	Vanesa	cumiano	vcumiano@gmail.com	true
