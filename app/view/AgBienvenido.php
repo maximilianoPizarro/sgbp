@@ -16,7 +16,7 @@ if(isset($_SESSION['idTipoLogin'])) {
 <html>
 	<?php include 'header.php'; ?>
 	
-	<link rel="stylesheet" href="../../../login/bastrap3/abreviaciones.css">
+	<link rel="stylesheet" href="../../../sgbp/bastrap3/abreviaciones.css">
 	
 	<body>
     
@@ -34,10 +34,10 @@ if(isset($_SESSION['idTipoLogin'])) {
           </div>
           <div class="collapse navbar-collapse" id="main-nav">
             <ul class="nav navbar-nav navbar-right">
-		      <li><a href="../../../login/app/index.php?login=AltaPatrimonio">Alta de Patrimonio</a></li>
-		      <li><a href="../../../login/app/index.php?login=perfil"><span class="glyphicon glyphicon-user"></span> 
+		      <li><a href="../../../sgbp/app/index.php?sgbp=AltaPatrimonio">Alta de Patrimonio</a></li>
+		      <li><a href="../../../sgbp/app/index.php?sgbp=perfil"><span class="glyphicon glyphicon-user"></span> 
 		      	<?php echo $_SESSION['nombre']." ".$_SESSION['apellido']; ?> </a></li>
-      		  <li><a href="../../../login/app/index.php?sesion=logout"><span class="glyphicon glyphicon-log-in"></span> Salir</a></li>
+      		  <li><a href="../../../sgbp/app/index.php?sesion=logout"><span class="glyphicon glyphicon-log-in"></span> Salir</a></li>
             </ul>
           </div>
         </div>
@@ -177,13 +177,13 @@ if(isset($_SESSION['idTipoLogin'])) {
     <?php include 'footer.php'; ?>
  
     <!-- JAVASCRIPT EXTRA -->
-    <script src="../../../login/bastrap3/assets/buenosaires.js"></script>  
-    <script src="../../../login/bastrap3/js/jquery.min.js"></script>
-    <script src="../../../login/bastrap3/js/jquery.dataTables.min.js"></script>
-    <script src="../../../login/bastrap3/js/bootstrap.min.js"></script>
-    <script src="../../../login/bastrap3/js/script.js"></script>
-    <script src="../../../login/bastrap3/js/agente.js"></script>  
-    <script src="../../../login/bastrap3/js/abreviaciones.js"></script>
+    <script src="../../../sgbp/bastrap3/assets/buenosaires.js"></script>  
+    <script src="../../../sgbp/bastrap3/js/jquery.min.js"></script>
+    <script src="../../../sgbp/bastrap3/js/jquery.dataTables.min.js"></script>
+    <script src="../../../sgbp/bastrap3/js/bootstrap.min.js"></script>
+    <script src="../../../sgbp/bastrap3/js/script.js"></script>
+    <script src="../../../sgbp/bastrap3/js/agente.js"></script>  
+    <script src="../../../sgbp/bastrap3/js/abreviaciones.js"></script>
         
     </body>   
 </html>

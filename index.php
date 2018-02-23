@@ -27,13 +27,13 @@ else {                                  //SI YA ESTA DEFINIDA REDIRECCIONAR A UN
     $tipo = $_SESSION['idTipoLogin'];
     
     if($tipo == 1) {
-        echo "<meta http-equiv=Refresh content=\"0.2 ; url=../../login/app/index.php?login=Bienvenido\">";
+        echo "<meta http-equiv=Refresh content=\"0.2 ; url=../../sgbp/app/index.php?sgbp=Bienvenido\">";
     }
     else if($tipo == 2) {
-        echo "<meta http-equiv=Refresh content=\"0.2 ; url=../../login/app/index.php?login=AdmBienvenido\">";
+        echo "<meta http-equiv=Refresh content=\"0.2 ; url=../../sgbp/app/index.php?sgbp=AdmBienvenido\">";
     }
     else if($tipo == 3) {
-        echo "<meta http-equiv=Refresh content=\"0.2 ; url=../../login/app/index.php?login=Dashboard\">";
+        echo "<meta http-equiv=Refresh content=\"0.2 ; url=../../sgbp/app/index.php?sgbp=Dashboard\">";
     }
 }
 

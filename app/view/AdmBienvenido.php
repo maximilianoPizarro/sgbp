@@ -12,7 +12,7 @@ if(isset($_SESSION['idTipoLogin'])) {
 	
 	<?php if( isset($_SESSION['edicionEnabled']) ) { unset($_SESSION['edicionEnabled']); } ?>
 	
-	<link rel="stylesheet" href="../../../login/bastrap3/abreviaciones.css">
+	<link rel="stylesheet" href="../../../sgbp/bastrap3/abreviaciones.css">
 	
 	<body>
     
@@ -32,28 +32,28 @@ if(isset($_SESSION['idTipoLogin'])) {
                         <li class="dropdown"> 
                         	<a class="dropdown-toggle" data-toggle="dropdown">&nbsp;&nbsp;Ver Listados de:&nbsp;&nbsp;&nbsp;&nbsp;<span class="caret"></span> &nbsp;&nbsp; </a>
                               <ul class="dropdown-menu">
-                              <li><a href="../../../login/app/index.php?login=AdmEgresos">Elemento1</a></li>
-                              	<li><a href="../../../login/app/index.php?login=AdmTraslados">Elemento1</a></li>
-                                <li><a href="../../../login/app/index.php?login=AdmMas60Dias">Elemento1</a></li>
-                                <li><a href="../../../login/app/index.php?login=AdmFueraPlazo">Elemento1</a></li>
-                                <li><a href="../../../login/app/index.php?login=AdmNotificadosRemision">Elemento1</a></li>                                                                                                                              
+                              <li><a href="../../../sgbp/app/index.php?sgbp=AdmEgresos">Elemento1</a></li>
+                              	<li><a href="../../../sgbp/app/index.php?sgbp=AdmTraslados">Elemento1</a></li>
+                                <li><a href="../../../sgbp/app/index.php?sgbp=AdmMas60Dias">Elemento1</a></li>
+                                <li><a href="../../../sgbp/app/index.php?sgbp=AdmFueraPlazo">Elemento1</a></li>
+                                <li><a href="../../../sgbp/app/index.php?sgbp=AdmNotificadosRemision">Elemento1</a></li>                                                                                                                              
                               </ul>
                               <input name="category" class="category" type="hidden">
                         </li>
                         
 						<li> <a data-toggle="dropdown">Administracion de:&nbsp;&nbsp;&nbsp;<span class="caret"></span></a>
                               <ul class="dropdown-menu">
-                                <li><a href="../../../login/app/index.php?login=AdmUsuarios">Usuarios &nbsp;</a></li>
-                                <li><a href="../../../login/app/index.php?login=AdmPersonal">Elemento1 &nbsp;</a></li>
-                                <li><a href="../../../login/app/index.php?login=AdmGruas">Elemento1 &nbsp;</a></li>
+                                <li><a href="../../../sgbp/app/index.php?sgbp=AdmUsuarios">Usuarios &nbsp;</a></li>
+                                <li><a href="../../../sgbp/app/index.php?sgbp=AdmPersonal">Elemento1 &nbsp;</a></li>
+                                <li><a href="../../../sgbp/app/index.php?sgbp=AdmGruas">Elemento1 &nbsp;</a></li>
                               </ul>
                               <input name="category" class="category" type="hidden">
                         </li>
 
-						<li><a href="../../../login/app/index.php?login=perfil"><span
+						<li><a href="../../../sgbp/app/index.php?sgbp=perfil"><span
 								class="glyphicon glyphicon-user"></span> 
 		      	<?php echo $_SESSION['nombre']." ".$_SESSION['apellido']; ?> </a></li>
-						<li><a href="../../../login/app/index.php?sesion=logout"><span
+						<li><a href="../../../sgbp/app/index.php?sesion=logout"><span
 								class="glyphicon glyphicon-log-in"></span> Salir</a></li>
 					</ul>
 				</div>
@@ -211,13 +211,13 @@ if(isset($_SESSION['idTipoLogin'])) {
     <?php include 'footer.php'; ?>
     
 
-    <script src="../../../login/bastrap3/assets/buenosaires.js"></script>
-    <script src="../../../login/bastrap3/js/jquery.min.js"></script>
-    <script src="../../../login/bastrap3/js/jquery.dataTables.min.js"></script>
-    <script src="../../../login/bastrap3/js/bootstrap.min.js"></script>
-    <script src="../../../login/bastrap3/js/script.js"></script>
-    <script src="../../../login/bastrap3/js/admin.js"></script>
-    <script src="../../../login/bastrap3/js/abreviaciones.js"></script>
+    <script src="../../../sgbp/bastrap3/assets/buenosaires.js"></script>
+    <script src="../../../sgbp/bastrap3/js/jquery.min.js"></script>
+    <script src="../../../sgbp/bastrap3/js/jquery.dataTables.min.js"></script>
+    <script src="../../../sgbp/bastrap3/js/bootstrap.min.js"></script>
+    <script src="../../../sgbp/bastrap3/js/script.js"></script>
+    <script src="../../../sgbp/bastrap3/js/admin.js"></script>
+    <script src="../../../sgbp/bastrap3/js/abreviaciones.js"></script>
     <!-- JAVASCRIPT EXTRA -->    
         
     </body>

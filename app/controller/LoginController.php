@@ -2,12 +2,12 @@
 
 @session_start();
 
-require_once '../../login/app/model/datos/Login.php';
-require_once '../../login/app/model/datos/Usuario.php';
-require_once '../../login/app/model/datos/Tipos.php';
-require_once '../../login/app/model/dao/LoginDao.php';
-require_once '../../login/app/model/dao/UsuarioDao.php'; 
-require_once '../../login/app/model/dao/TiposDao.php';
+require_once '../../sgbp/app/model/datos/Login.php';
+require_once '../../sgbp/app/model/datos/Usuario.php';
+require_once '../../sgbp/app/model/datos/Tipos.php';
+require_once '../../sgbp/app/model/dao/LoginDao.php';
+require_once '../../sgbp/app/model/dao/UsuarioDao.php'; 
+require_once '../../sgbp/app/model/dao/TiposDao.php';
 
 
 //SI LAS VARIABLES SESSION DE INICIAR SESION ESTÁN DEFINIDAS, LAS BORRAMOS.
@@ -65,21 +65,21 @@ if(($log != null) && ($log->getPass() == $passEncriptada)) {      //SI EL LOGIN 
     
     //REDIRECCIONAR A LA VISTA DEPENDIENDO EL TIPO DE LOGIN
     if($idTipoLogin == 1) {
-        echo "<meta http-equiv=Refresh content=\"0.5 ; url=../../../login/app/index.php?login=Bienvenido\">";
+        echo "<meta http-equiv=Refresh content=\"0.5 ; url=../../../sgbp/app/index.php?sgbp=Bienvenido\">";
         
     }
     else if($idTipoLogin == 2) {
-        echo "<meta http-equiv=Refresh content=\"0.5 ; url=../../../login/app/index.php?login=AdmBienvenido\">";
+        echo "<meta http-equiv=Refresh content=\"0.5 ; url=../../../sgbp/app/index.php?sgbp=AdmBienvenido\">";
         
     } 
     else if($idTipoLogin == 3) {
-        echo "<meta http-equiv=Refresh content=\"0.5 ; url=../../../login/app/index.php?login=Dashboard\">";
+        echo "<meta http-equiv=Refresh content=\"0.5 ; url=../../../sgbp/app/index.php?sgbp=Dashboard\">";
     }
     
 }
 else {                                                  //SI NO EXISTE: MENSAJE DE ERROR Y REDIRECCIONA A iniciarSesion.php
     $_SESSION['mensajeError'] = "...";
-    echo "<meta http-equiv=Refresh content=\"0.2 ; url=../../login/app/index.php?login=IniciarSesion\">"; 
+    echo "<meta http-equiv=Refresh content=\"0.2 ; url=../../sgbp/app/index.php?sgbp=IniciarSesion\">"; 
 }
 
 ?>

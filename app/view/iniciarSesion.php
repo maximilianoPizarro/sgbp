@@ -80,7 +80,7 @@ if( !isset($_SESSION['idSesion']) )  {
 
     <main class="main-container no-padding-top" role="main">
       <section>
-       <form action=" ../../../login/app/index.php?sesion=login " method="post">
+       <form action=" ../../../sgbp/app/index.php?sesion=login " method="post">
        	<input type="hidden" name="sesion" value="login">
         <div class="container">
           <h2 class="h1 text-left">Iniciar Sesi&oacuten</h2>
@@ -160,8 +160,8 @@ if( !isset($_SESSION['idSesion']) )  {
         
     <?php include 'footer.php'; ?>  
     
-    <script src="../../../login/bastrap3/js/jquery.min.js"></script>
-    <script src="../../../login/bastrap3/js/bootstrap.min.js"></script>
+    <script src="../../../sgbp/bastrap3/js/jquery.min.js"></script>
+    <script src="../../../sgbp/bastrap3/js/bootstrap.min.js"></script>
 
         
     </body>

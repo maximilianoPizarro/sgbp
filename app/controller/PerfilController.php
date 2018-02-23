@@ -2,13 +2,13 @@
 
 @session_start();
 
-require_once '../../login/app/model/datos/Login.php';
-require_once '../../login/app/model/datos/Usuario.php';
-require_once '../../login/app/model/datos/Tipos.php';
-require_once '../../login/app/model/dao/LoginDao.php';
-require_once '../../login/app/model/dao/UsuarioDao.php';
-require_once '../../login/app/model/dao/TiposDao.php';
-require_once '../../login/app/model/dao/DataSource.php';
+require_once '../../sgbp/app/model/datos/Login.php';
+require_once '../../sgbp/app/model/datos/Usuario.php';
+require_once '../../sgbp/app/model/datos/Tipos.php';
+require_once '../../sgbp/app/model/dao/LoginDao.php';
+require_once '../../sgbp/app/model/dao/UsuarioDao.php';
+require_once '../../sgbp/app/model/dao/TiposDao.php';
+require_once '../../sgbp/app/model/dao/DataSource.php';
 
 
 $sesionDao = new SesionDao();
@@ -91,6 +91,6 @@ switch ($_POST['profile']) {
     };break;
 }
 
-echo "<meta http-equiv=Refresh content=\"0.2 ; url=../../login/app/index.php?login=perfil\">";
+echo "<meta http-equiv=Refresh content=\"0.2 ; url=../../sgbp/app/index.php?sgbp=perfil\">";
 
 ?>

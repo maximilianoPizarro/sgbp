@@ -28,12 +28,12 @@ if (isset($_SESSION['idTipoLogin'])) {
 				</div>
 				<div class="collapse navbar-collapse" id="main-nav">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="../../../login/app/index.php?login=BuscarVehiculo">Buscar Patrimonio</a></li>
-						<li><a href="../../../login/app/index.php?login=Estadisticas">Ver estadisticas</a></li>
-						<li><a href="../../../login/app/index.php?login=perfil"><span
+						<li><a href="../../../sgbp/app/index.php?sgbp=BuscarVehiculo">Buscar Patrimonio</a></li>
+						<li><a href="../../../sgbp/app/index.php?sgbp=Estadisticas">Ver estadisticas</a></li>
+						<li><a href="../../../sgbp/app/index.php?sgbp=perfil"><span
 								class="glyphicon glyphicon-user"></span> 
 		      	<?php echo $_SESSION['nombre']." ".$_SESSION['apellido']; ?> </a></li>
-						<li><a href="../../../login/app/index.php?sesion=logout"><span
+						<li><a href="../../../sgbp/app/index.php?sesion=logout"><span
 								class="glyphicon glyphicon-log-in"></span> Salir</a></li>
 					</ul>
 				</div>
@@ -116,11 +116,11 @@ if (isset($_SESSION['idTipoLogin'])) {
     
 	<!-- JAVASCRIPT EXTRA -->
 	
-    <script src="../../../login/bastrap3/js/jquery.min.js"></script>
-	<script src="../../../login/bastrap3/js/bootstrap.min.js"></script>
-	<script src="../../../login/bastrap3/js/graficos.js"></script><!--el loader.js de chart-->
-	<script src="../../../login/bastrap3/js/graficosTorta.js"></script>
-    <script type="../../../login/bastrap3/js/jquery10.min.js"></script>
+    <script src="../../../sgbp/bastrap3/js/jquery.min.js"></script>
+	<script src="../../../sgbp/bastrap3/js/bootstrap.min.js"></script>
+	<script src="../../../sgbp/bastrap3/js/graficos.js"></script><!--el loader.js de chart-->
+	<script src="../../../sgbp/bastrap3/js/graficosTorta.js"></script>
+    <script type="../../../sgbp/bastrap3/js/jquery10.min.js"></script>
 
 </body>
 </html>

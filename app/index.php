@@ -1,8 +1,8 @@
 <?php
 
-require_once '../../login/app/model/datos/Sesion.php';
-require_once '../../login/app/model/dao/SesionDao.php';
-require_once '../../login/app/model/dao/DataSource.php'; 
+require_once '../../sgbp/app/model/datos/Sesion.php';
+require_once '../../sgbp/app/model/dao/SesionDao.php';
+require_once '../../sgbp/app/model/dao/DataSource.php'; 
 
 @session_start();
 
@@ -37,9 +37,9 @@ if( isset($_SESSION['idSesion']) ) {                              //VERIFICAMOS 
     $ses = $sesDao->traerSesionId( $_SESSION['idSesion'] );     //BUSCAMOS LA SESION EN LA BD
     
     if ( ($ses != null) ) {                                     //VERIFICAMOS QUE SI EXISTA                          
-        if ( isset($_REQUEST['login']) ) {                          //VERIFICAMOS QUE EXISTA UNA PETICION 'sugpa'
+        if ( isset($_REQUEST['sgbp']) ) {                          //VERIFICAMOS QUE EXISTA UNA PETICION 'sugpa'
 
-            switch ( $_REQUEST['login'] ) {
+            switch ( $_REQUEST['sgbp'] ) {
                 
                 /** VISTAS */
                 case 'Bienvenido': {

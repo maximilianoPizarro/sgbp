@@ -16,11 +16,11 @@
 	<META HTTP-EQUIV="Expires" CONTENT="-1">
     <title>Gobierno de la Ciudad de Buenos Aires</title>
     
-    <link rel="shortcut icon" href="../../../login/bastrap3/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="../../../login/bastrap3/favicon-mobile.png">
-    <link rel="stylesheet" href="../../../login/bastrap3/assets/buenosaires.css">
-    <link rel="stylesheet" href="../../../login/bastrap3/bootstrap.min.css">
-    <link rel="stylesheet" href="../../../login/bastrap3/bastrap.css">
+    <link rel="shortcut icon" href="../../../sgbp/bastrap3/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="../../../sgbp/bastrap3/favicon-mobile.png">
+    <link rel="stylesheet" href="../../../sgbp/bastrap3/assets/buenosaires.css">
+    <link rel="stylesheet" href="../../../sgbp/bastrap3/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../sgbp/bastrap3/bastrap.css">
    <!-- jQuery library -->
     
    <!-- <script src="../../../sugpa/bastrap3/js/cssrefresh.js"></script> -->
@@ -41,7 +41,7 @@
               <a class="navbar-brand bac-header" href="index.php"></a>
             </div>
             <div class="col-md-6 col-sm-6 text-right oculto">
-              <h5 class="sub-brand"><img src="../../../login/bastrap3/bac-header-2.png"/></h5>
+              <h5 class="sub-brand"><img src="../../../sgbp/bastrap3/bac-header-2.png"/></h5>
               <!--<h5 class="sub-brand">Vamos Buenos Aires</h5>-->
             </div>
       	</div>

@@ -23,10 +23,10 @@ if(isset($_SESSION['idSesion'])) { ?>
            </div>
           <div class="collapse navbar-collapse" id="main-nav">
             <ul class="nav navbar-nav navbar-right">
-		      <li><a href="../../../login/app/index.php?login=IniciarSesion">Volver</a></li>
-		      <li><a href="../../../login/app/index.php?login=perfil"><span class="glyphicon glyphicon-user"></span> 
+		      <li><a href="../../../sgbp/app/index.php?sgbp=IniciarSesion">Volver</a></li>
+		      <li><a href="../../../sgbp/app/index.php?sgbp=perfil"><span class="glyphicon glyphicon-user"></span> 
 		      	<?php echo $_SESSION['nombre']." ".$_SESSION['apellido']; ?> </a></li>
-      		  <li><a href="../../../login/app/index.php?sesion=logout"><span class="glyphicon glyphicon-log-in"></span> Salir</a></li>
+      		  <li><a href="../../../sgbp/app/index.php?sesion=logout"><span class="glyphicon glyphicon-log-in"></span> Salir</a></li>
             </ul>
           </div>
         </div>
@@ -102,7 +102,7 @@ if(isset($_SESSION['idSesion'])) { ?>
                 <div class="panel panel-default">
                   <div class="panel-heading text-center"><b>Cambiar direcci&oacuten de email</b></div>
                   <div class="panel-body">
-                    <form action=" ../../../login/app/index.php " method="POST" onsubmit="submitEmail.disabled=true; submitEmail.value='Enviando..'; return true;">
+                    <form action=" ../../../sgbp/app/index.php " method="POST" onsubmit="submitEmail.disabled=true; submitEmail.value='Enviando..'; return true;">
                     	<input type="hidden" name="login" value="perfilUpdate">
                     	<input type="hidden" name="profile" value="1">
                       <div class="form-group">
@@ -126,7 +126,7 @@ if(isset($_SESSION['idSesion'])) { ?>
                   <div class="panel-heading text-center"><b>Cuenta</b></div>
                   <div class="panel-body">
                   	<label for="tipo">Tipo de Usuario:</label> <?php echo $_SESSION['tipoLogin']; ?>
-                  	<form action=" ../../../login/app/index.php " method="POST" onsubmit="submitUseer.disabled=true; submitUseer.value='&nbsp&nbsp&nbsp&nbsp&nbsp;Enviando..&nbsp&nbsp&nbsp&nbsp&nbsp;'; return true;">
+                  	<form action=" ../../../sgbp/app/index.php " method="POST" onsubmit="submitUseer.disabled=true; submitUseer.value='&nbsp&nbsp&nbsp&nbsp&nbsp;Enviando..&nbsp&nbsp&nbsp&nbsp&nbsp;'; return true;">
                   		<input type="hidden" name="login" value="perfilUpdate">
                     	<input type="hidden" name="profile" value="2">
                       <div class="form-group">
@@ -145,7 +145,7 @@ if(isset($_SESSION['idSesion'])) { ?>
                 <div class="panel panel-default">
                   <div class="panel-heading text-center"><b>Cambiar Contraseña</b></div>
                   <div class="panel-body">
-                    <form action=" ../../../login/app/index.php " method="POST" onsubmit="submitContra.disabled=true; submitContra.value='Enviando..'; return true;">
+                    <form action=" ../../../sgbp/app/index.php " method="POST" onsubmit="submitContra.disabled=true; submitContra.value='Enviando..'; return true;">
                     	<input type="hidden" name="login" value="perfilUpdate">
                     	<input type="hidden" name="profile" value="3">
                       <div class="form-group">
@@ -178,8 +178,8 @@ if(isset($_SESSION['idSesion'])) { ?>
 
     <?php include 'footer.php'; ?>
     
-    <script src="../../../login/bastrap3/jquery.min.js"></script>
-    <script src="../../../login/bastrap3/bootstrap.min.js"></script>
+    <script src="../../../sgbp/bastrap3/jquery.min.js"></script>
+    <script src="../../../sgbp/bastrap3/bootstrap.min.js"></script>
     <!-- JAVASCRIPT EXTRA -->    
         
     </body>

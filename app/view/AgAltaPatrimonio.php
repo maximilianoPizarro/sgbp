@@ -51,11 +51,11 @@ if(isset($_SESSION['idTipoLogin'])) {
 				</div>
 				<div class="collapse navbar-collapse" id="main-nav">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="../../login/app/index.php?login=Bienvenido">Volver</a></li>
-						<li><a href="../../login/app/index.php?login=perfil"><span
+						<li><a href="../../sgbp/app/index.php?sgbp=Bienvenido">Volver</a></li>
+						<li><a href="../../sgbp/app/index.php?sgbp=perfil"><span
 								class="glyphicon glyphicon-user"></span> 
 		      	<?php echo $_SESSION['nombre']." ".$_SESSION['apellido']; ?> </a></li>
-						<li><a href="../../login/app/index.php?sesion=logout"><span
+						<li><a href="../../sgbp/app/index.php?sesion=logout"><span
 								class="glyphicon glyphicon-log-in"></span> Salir</a></li>
 					</ul>
 				</div>
@@ -64,7 +64,7 @@ if(isset($_SESSION['idTipoLogin'])) {
 	</nav>
 	<!-- FIN DE NAVEGACI�N PRINCIPAL -->
 
-	<form action=" ../../../login/app/index.php?login=prepararIngreso " method="post" id="formIngreso" >
+	<form action=" ../../../sgbp/app/index.php?sgbp=prepararIngreso " method="post" id="formIngreso" >
 <!-- 		<input type="hidden" name="sugpa" value="ingresoVehiculo"> -->
 		<div class="container">
 			<h2>Alta de Patrimonio :</h2>
