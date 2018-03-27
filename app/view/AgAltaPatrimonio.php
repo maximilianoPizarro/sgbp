@@ -83,9 +83,17 @@ if(isset($_SESSION['idTipoLogin'])) {
 												required name="playaIngreso"
 												onchange="clonarSelect(this.form)">
 												<option value="" selected="" disabled>Seleccionar</option>
-												<option value="1-PLAYA SARMIENTO">Electrodomesticos</option>
-												<option value="2-PLAYA RIO CUARTO">Muebleria</option>
-												<option value="2-PLAYA RIO CUARTO">Automotor</option>
+												<option value="1-PLAYA SARMIENTO">LIBRERIA</option>
+												<option value="2-PLAYA RIO CUARTO">IMPRENTA</option>
+												<option value="2-PLAYA RIO CUARTO">MOBILIARIO</option>
+												<option value="1-PLAYA SARMIENTO">FERRETERIA, PINTURA Y ELECTRICIDAD</option>
+												<option value="2-PLAYA RIO CUARTO">ELECTRODOMESTICOS Y ELECTRONICOS</option>
+												<option value="2-PLAYA RIO CUARTO">INSUMOS INFORMATICOS</option>
+												<option value="1-PLAYA SARMIENTO">SEGURIDAD, SENALIZACION Y CONTROL</option>
+												<option value="2-PLAYA RIO CUARTO">LIMPIEZA</option>
+												<option value="2-PLAYA RIO CUARTO">OBRAS Y SERVICIOS</option>
+
+												
 											</select>
 										</p>
 

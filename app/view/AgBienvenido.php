@@ -34,7 +34,9 @@ if(isset($_SESSION['idTipoLogin'])) {
           </div>
           <div class="collapse navbar-collapse" id="main-nav">
             <ul class="nav navbar-nav navbar-right">
+            
 		      <li><a href="../../../sgbp/app/index.php?sgbp=AltaPatrimonio">Alta de Patrimonio</a></li>
+		      <li><a href="../../../sgbp/app/index.php?sgbp=AsignacionPatrimonio">Asignacion de Patrimonio</a></li>
 		      <li><a href="../../../sgbp/app/index.php?sgbp=perfil"><span class="glyphicon glyphicon-user"></span> 
 		      	<?php echo $_SESSION['nombre']." ".$_SESSION['apellido']; ?> </a></li>
       		  <li><a href="../../../sgbp/app/index.php?sesion=logout"><span class="glyphicon glyphicon-log-in"></span> Salir</a></li>

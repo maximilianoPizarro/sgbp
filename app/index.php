@@ -48,11 +48,11 @@ if( isset($_SESSION['idSesion']) ) {                              //VERIFICAMOS 
                 case 'AltaPatrimonio': {
                     require_once 'view/AgAltaPatrimonio.php';
                 };break;
-                case 'ConfirmarIngreso': {
-                    require_once 'view/AgConfirmarIngreso.php';
+                case 'AsignacionPatrimonio': {
+                    require_once 'view/AgAsignacionPatrimonio.php';
                 };break;
-                case 'EgresarVehiculo': {
-                    require_once 'view/AgEgresarVehiculo.php';
+                case 'FichaPatrimonio': {
+                    require_once 'view/AgFichaPatrimonio.php';
                 };break;
                 case 'ConfirmarEgreso': {
                     require_once 'view/AgConfirmarEgreso.php';
