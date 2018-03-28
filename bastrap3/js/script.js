@@ -429,3 +429,73 @@ $('#cargando').ready(function() {
   }, 1500);
 });
 
+
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+
+	//tabla dinamica con mostrar detalle	  
+		 var table = $('#tabla').DataTable({
+		        "processing": true,
+		        "scrollY": 300,
+		        "scrollX": true,
+			    "sAjaxSource":"../app/negocio/tabla.txt",
+		        "columns": [{
+				                "class":          "details-control",
+				                "orderable":      false,
+				                "data":           null,			           
+				                "defaultContent": ""
+				            },
+		                    { "data": "codigo" },
+		                    { "data": "categoria" },
+		                    { "data": "nombre" },
+		                    { "data": "dependencia" },
+		                    { "data": "responsable" }
+		                    ],
+		      "order": [[1, 'dsc']]
+			  }
+				 );
+		
+		
+		    // Array to track the ids of the details displayed rows
+		    var detailRows = [];
+		 
+		    $('#mydata tbody').on( 'click', 'tr td.details-control', function () {
+		        var tr = $(this).closest('tr');
+		        var row = table.row( tr );
+		        var idx = $.inArray( tr.attr('id'), detailRows );
+		 
+		        if ( row.child.isShown() ) {
+		            tr.removeClass( 'details' );
+		            row.child.hide();
+		 
+		            // Remove from the 'open' array
+		            detailRows.splice( idx, 1 );
+		        }
+		        else {
+		            tr.addClass( 'details' );
+		            row.child( format( row.data() ) ).show();
+		 
+		            // Add to the 'open' array
+		            if ( idx === -1 ) {
+		                detailRows.push( tr.attr('id') );
+		            }
+		        }
+		    } );
+		    
+		    // On each draw, loop over the `detailRows` array and show any child rows
+		    table.on( 'draw', function () {
+		        $.each( detailRows, function ( i, id ) {
+		            $('#'+id+' td.details-control').trigger( 'click' );
+		        } );
+		    } );
+		    
+		 
+	} );
+

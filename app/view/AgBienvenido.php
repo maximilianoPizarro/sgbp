@@ -152,6 +152,21 @@ if(isset($_SESSION['idTipoLogin'])) {
       				
  <!-- <img src="https://chart.googleapis.com/chart?chs=150x150&amp;cht=qr&amp;chl=Hello%20world&amp;choe=UTF-8" alt="QR code">
   -->
+  
+  			  			<table class="table table-striped table-bordered nowrap cargando" cellspacing="0" width="100%" id="tabla">    
+			    			<thead>
+			      				<tr>
+			      	 			<th></th>
+					 			<th>CODIGO</th>	
+					 			<th>CATEGORIA</th>				 			
+					 			<th>NOMBRE	</th>
+					 			<th>DEPENDENCIA	</th>
+					 			<th>RESPONSABLE</th>
+			    			</thead>
+						</table> 
+  
+  
+  
   						<br>
   						<div class="row">
                           <div class="col-md-4">

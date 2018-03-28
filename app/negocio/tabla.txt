@@ -1,0 +1,386 @@
+{
+  "draw": 1,
+  "recordsTotal": 78,
+  "recordsFiltered": 10,
+  "data":[
+  {
+    "codigo": 99999,
+    "categoria": "LIBRER�A",
+    "nombre": "RESMAS",
+    "dependencia": "VILLA LURO",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100000,
+    "categoria": "IMPRENTA",
+    "nombre": "CUADERNO",
+    "dependencia": "PIEDRAS",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100001,
+    "categoria": "MOBILIARIO",
+    "nombre": "MESA",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100002,
+    "categoria": "FERRETERIA, PINTURA Y ELECTRICIDAD",
+    "nombre": "TOMACORRIENTES",
+    "dependencia": "BRD TACUARI",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100003,
+    "categoria": "ELECTRODOM�STICOS Y ELECTR�NICOS",
+    "nombre": "HELADERA",
+    "dependencia": "PIEDRAS",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100004,
+    "categoria": "INSUMOS INFORM�TICOS",
+    "nombre": "MOUSE",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100005,
+    "categoria": "SEGURIDAD, SE�ALIZACI�N Y CONTROL",
+    "nombre": "CONO",
+    "dependencia": "BRD TACUARI",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100006,
+    "categoria": "LIMPIEZA",
+    "nombre": "TRAPO DE PISO",
+    "dependencia": "PIEDRAS",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100007,
+    "categoria": "OBRAS Y SERVICIOS",
+    "nombre": "INTERNET",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100008,
+    "categoria": "LIBRER�A",
+    "nombre": "RESMAS",
+    "dependencia": "BRD TACUARI",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100009,
+    "categoria": "IMPRENTA",
+    "nombre": "CUADERNO",
+    "dependencia": "PIEDRAS",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100010,
+    "categoria": "MOBILIARIO",
+    "nombre": "MESA",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100011,
+    "categoria": "FERRETERIA, PINTURA Y ELECTRICIDAD",
+    "nombre": "TOMACORRIENTES",
+    "dependencia": "BRD TACUARI",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100012,
+    "categoria": "ELECTRODOM�STICOS Y ELECTR�NICOS",
+    "nombre": "HELADERA",
+    "dependencia": "PIEDRAS",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100013,
+    "categoria": "INSUMOS INFORM�TICOS",
+    "nombre": "MOUSE",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100014,
+    "categoria": "SEGURIDAD, SE�ALIZACI�N Y CONTROL",
+    "nombre": "CONO",
+    "dependencia": "BRD TACUARI",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100015,
+    "categoria": "LIMPIEZA",
+    "nombre": "TRAPO DE PISO",
+    "dependencia": "PIEDRAS",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100016,
+    "categoria": "OBRAS Y SERVICIOS",
+    "nombre": "INTERNET",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100017,
+    "categoria": "LIMPIEZA",
+    "nombre": "TRAPO DE PISO",
+    "dependencia": "PIEDRAS",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100018,
+    "categoria": "OBRAS Y SERVICIOS",
+    "nombre": "INTERNET",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100019,
+    "categoria": "LIBRER�A",
+    "nombre": "RESMAS",
+    "dependencia": "BRD TACUARI",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100020,
+    "categoria": "IMPRENTA",
+    "nombre": "CUADERNO",
+    "dependencia": "PIEDRAS",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100021,
+    "categoria": "MOBILIARIO",
+    "nombre": "MESA",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100022,
+    "categoria": "FERRETERIA, PINTURA Y ELECTRICIDAD",
+    "nombre": "TOMACORRIENTES",
+    "dependencia": "BRD TACUARI",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100023,
+    "categoria": "ELECTRODOM�STICOS Y ELECTR�NICOS",
+    "nombre": "HELADERA",
+    "dependencia": "PIEDRAS",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100024,
+    "categoria": "INSUMOS INFORM�TICOS",
+    "nombre": "MOUSE",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100025,
+    "categoria": "SEGURIDAD, SE�ALIZACI�N Y CONTROL",
+    "nombre": "CONO",
+    "dependencia": "BRD TACUARI",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100026,
+    "categoria": "LIMPIEZA",
+    "nombre": "TRAPO DE PISO",
+    "dependencia": "PIEDRAS",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100027,
+    "categoria": "OBRAS Y SERVICIOS",
+    "nombre": "INTERNET",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100028,
+    "categoria": "MOBILIARIO",
+    "nombre": "INTERNET",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100029,
+    "categoria": "FERRETERIA, PINTURA Y ELECTRICIDAD",
+    "nombre": "INTERNET",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100030,
+    "categoria": "ELECTRODOM�STICOS Y ELECTR�NICOS",
+    "nombre": "MOUSE",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100031,
+    "categoria": "INSUMOS INFORM�TICOS",
+    "nombre": "CONO",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100032,
+    "categoria": "SEGURIDAD, SE�ALIZACI�N Y CONTROL",
+    "nombre": "TRAPO DE PISO",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100033,
+    "categoria": "LIMPIEZA",
+    "nombre": "INTERNET",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100034,
+    "categoria": "OBRAS Y SERVICIOS",
+    "nombre": "RESMAS",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100035,
+    "categoria": "LIBRER�A",
+    "nombre": "CUADERNO",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100036,
+    "categoria": "IMPRENTA",
+    "nombre": "MESA",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100037,
+    "categoria": "MOBILIARIO",
+    "nombre": "TOMACORRIENTES",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100038,
+    "categoria": "MOBILIARIO",
+    "nombre": "HELADERA",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100039,
+    "categoria": "FERRETERIA, PINTURA Y ELECTRICIDAD",
+    "nombre": "MOUSE",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100040,
+    "categoria": "ELECTRODOM�STICOS Y ELECTR�NICOS",
+    "nombre": "MOUSE",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100041,
+    "categoria": "INSUMOS INFORM�TICOS",
+    "nombre": "CONO",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100042,
+    "categoria": "SEGURIDAD, SE�ALIZACI�N Y CONTROL",
+    "nombre": "TRAPO DE PISO",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100043,
+    "categoria": "LIMPIEZA",
+    "nombre": "INTERNET",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100044,
+    "categoria": "OBRAS Y SERVICIOS",
+    "nombre": "RESMAS",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100045,
+    "categoria": "LIBRER�A",
+    "nombre": "CUADERNO",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100046,
+    "categoria": "IMPRENTA",
+    "nombre": "MESA",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100047,
+    "categoria": "MOBILIARIO",
+    "nombre": "TOMACORRIENTES",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100048,
+    "categoria": "MOBILIARIO",
+    "nombre": "HELADERA",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100049,
+    "categoria": "FERRETERIA, PINTURA Y ELECTRICIDAD",
+    "nombre": "MOUSE",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100050,
+    "categoria": "ELECTRODOM�STICOS Y ELECTR�NICOS",
+    "nombre": "MOUSE",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100051,
+    "categoria": "INSUMOS INFORM�TICOS",
+    "nombre": "CONO",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  },
+  {
+    "codigo": 100052,
+    "categoria": "SEGURIDAD, SE�ALIZACI�N Y CONTROL",
+    "nombre": "TRAPO DE PISO",
+    "dependencia": "COCHABAMBA",
+    "responsable": "21456788989 GOMEZ WALTER"
+  }
+]
+     
+}
