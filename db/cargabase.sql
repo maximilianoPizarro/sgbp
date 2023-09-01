@@ -40,22 +40,20 @@ CREATE TABLE public.usuario
   CONSTRAINT usuario_pkey PRIMARY KEY (idusuario)
 )
 
+ALTER TABLE ONLY public.usuario
+    ADD CONSTRAINT usuario_pkey PRIMARY KEY (idusuario);
 
-CREATE SEQUENCE public.usuario_idusuario_seq
-  INCREMENT 1
-  MINVALUE 1
-  MAXVALUE 9223372036854775807
-  START 4
-  CACHE 1;
-ALTER TABLE public.usuario_idusuario_seq
-  OWNER TO postgres;
+ALTER TABLE ONLY public.tipologin
+    ADD CONSTRAINT tipologin_pkey PRIMARY KEY (idtipologin);
 
-  
-COPY tipologin FROM 'C:/TipoLoginDB.txt' WITH DELIMITER '	' CSV HEADER;
+ALTER TABLE ONLY public.login
+    ADD CONSTRAINT tipologin_pkey PRIMARY KEY (idlogin);
 
-COPY usuario(dni, nombre, apellido, email, bajausuario) FROM 'C:/UsuarioDB.txt' WITH DELIMITER '	' CSV HEADER;
+COPY tipologin FROM '/docker-entrypoint-initdb.d/carga/TipoLoginDB.txt' WITH DELIMITER '	' CSV HEADER;
 
-COPY login FROM 'C:/LoginDB.txt' WITH DELIMITER '	' CSV HEADER;
+COPY usuario(dni, nombre, apellido, email, bajausuario) FROM '/docker-entrypoint-initdb.d/carga/UsuarioDB.txt' WITH DELIMITER '	' CSV HEADER;
+
+COPY login FROM '/docker-entrypoint-initdb.d/carga/LoginDB.txt' WITH DELIMITER '	' CSV HEADER;
 
 
 

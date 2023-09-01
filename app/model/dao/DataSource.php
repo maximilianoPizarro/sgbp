@@ -9,7 +9,7 @@ class DataSource {
 	 **/
 	public function __construct(){
 		try{
-            $this->conexion = new PDO("pgsql:host=localhost;port=5432;dbname=login;user=postgres;password=root");
+            $this->conexion = new PDO("pgsql:host=sgbp-postgresql;port=5432;dbname=infraestructura;user=ingraestructura;password=ingraestructura");
 		}catch(PDOException $e){
 			echo $e->getMessage(); }
 	}

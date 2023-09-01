@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+  sgbp-postgresql:
+    image: postgres:12-alpine
+    environment:
+      - POSTGRES_DB=infraestructura
+      - POSTGRES_USER=ingraestructura
+      - POSTGRES_PASSWORD=ingraestructura
+    ports:
+      - 5432:5432
+    volumes:
+      - ./db/carga:/docker-entrypoint-initdb.d/carga
+      - ./db/base_login.backup:/docker-entrypoint-initdb.d/base_login.backup
+      - ./db/cargabase.sql:/docker-entrypoint-initdb.d/cargabase.sql            
+    networks:
+      - monolito
+networks:
+  monolito: {}
